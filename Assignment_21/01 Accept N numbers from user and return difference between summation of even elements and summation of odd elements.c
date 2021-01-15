@@ -6,9 +6,13 @@ int Difference(int Arr[],int iLength)
 
     for(int i = 0 ; i < iLength ; i++)
     {
-        if(Arr[i] % 5 == 0)
+        if(Arr[i] % 2 == 0)
         {
             iEven = iEven + Arr[i];
+        }
+        else if(Arr[i] % 2 == 1)
+        {
+            iOdd = iOdd + Arr[i];
         }
     }
 
