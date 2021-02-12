@@ -23,10 +23,12 @@ void StrCpyToggle(char *src,char *dest)
             src++;
             goto up;
        }
+
        *dest = *src;
        dest++;
        src++;
     }
+
     *dest = '\0';
     return;
 
