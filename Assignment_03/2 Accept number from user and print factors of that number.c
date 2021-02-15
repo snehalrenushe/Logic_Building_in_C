@@ -17,6 +17,7 @@ void DisplayFactor(int iNo)
             printf("  %d",i);
         }
     }
+
 }
 
 int main()
