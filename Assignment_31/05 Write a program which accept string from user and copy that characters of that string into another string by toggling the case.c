@@ -1,20 +1,22 @@
 #include<stdio.h>
+#include<conio.h>
 #include<string.h>
-
 
 void StrCpyToggle(char *src,char *dest)
 {
     int i;
+
     while(*src != '\0')
     {
-        up:
-        if(*src >= 'A' && *src <= 'Z')
+       up:
+       if(*src >= 'A' && *src <= 'Z')
        {
             *dest = *src + 32;
             dest++;
             src++;
             goto up;
        }
+
        UP:
        if(*src >= 'a' && *src <= 'z')
        {
@@ -30,9 +32,12 @@ void StrCpyToggle(char *src,char *dest)
     }
 
     *dest = '\0';
+
+    getch();
     return;
 
 }
+
 int main()
 {
     char arr[50] = "";
@@ -46,6 +51,7 @@ int main()
     printf("Another string is %s",brr);
 
     return 0;
+
 }
 
 
