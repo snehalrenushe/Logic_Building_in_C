@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<string.h>
 
-
 void StrCpyCap(char *src,char *dest)
 {
     while(*src != '\0')
@@ -13,12 +12,14 @@ void StrCpyCap(char *src,char *dest)
         }
         src++;
     }
+
     *dest = '\0';
 
     return;
 
 }
 int main()
+
 {
     char arr[30] = "Marvellous Multi OS";
     char brr[30] = "";
