@@ -1,21 +1,23 @@
 #include<stdio.h>
 #include<string.h>
 
-
 void StrCpyCat(char *src,char *dest)
 {
     while(*src != '\0')
     {
         src++;
     }
+
     *src = ' ';
     src++;
+
     while(*dest != '\0')
     {
         *src = *dest;
         dest++;
         src++;
     }
+
     *src = '\0';
 
     return;
