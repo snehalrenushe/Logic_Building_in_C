@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<string.h>
 
-
 void StrCpy(char *src,char *dest)
 {
     while(*src != '\0')
@@ -13,7 +12,9 @@ void StrCpy(char *src,char *dest)
     *dest = '\0';
 
     return;
+
 }
+
 int main()
 {
     char arr[30] = "Marvellous Multi OS";
