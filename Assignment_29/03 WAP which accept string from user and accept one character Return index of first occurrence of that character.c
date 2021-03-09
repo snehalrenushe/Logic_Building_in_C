@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<string.h>
 
-
 int CountChar(char *str,char ch)
 {
     int i = 1;
@@ -16,9 +15,7 @@ int CountChar(char *str,char ch)
     }
 
     return -1;
-
 }
-
 
 int main()
 {
@@ -37,5 +34,4 @@ int main()
     printf("Character location is %d",bRet);
 
     return 0;
-
 }
