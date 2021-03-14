@@ -13,9 +13,7 @@ void FactRev(int iNo)
             printf("\n %d",i);
         }
     }
-
 }
-
 int main()
 
 {

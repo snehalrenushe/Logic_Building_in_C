@@ -5,7 +5,9 @@
             1 2 3
             1 2 3
 */
+
 ///============================================================///
+#include<conio.h>
 #include<stdio.h>
 
 void Pattern(int iRow,int iCol)
@@ -21,6 +23,7 @@ void Pattern(int iRow,int iCol)
     }
 }
 int main()
+
 {
     int iValue1 = 0 , iValue2 = 0;
 
