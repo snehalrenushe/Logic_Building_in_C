@@ -23,7 +23,6 @@ float CalculateBill(int iAmount)
     }
 
     return 0;
-
 }
 
 int main()
