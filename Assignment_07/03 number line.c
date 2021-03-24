@@ -7,6 +7,7 @@ void Display (int iNo)
         printf(" %d ",i);
     }
 }
+
 int main()
 {
     int iValue = 0;
