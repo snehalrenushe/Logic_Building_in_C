@@ -16,7 +16,6 @@ BOOL ChkDigit(char ch)
         return FALSE;
     }
 }
-
 int main()
 {
     char cValue = '\0';
