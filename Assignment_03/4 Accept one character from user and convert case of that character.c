@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-int DisplayConvert(int cValue)
+int DisplayConvert(char cValue)
 {
     if(cValue >= 97 && cValue <= 122)
     {
