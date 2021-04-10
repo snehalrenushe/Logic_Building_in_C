@@ -3,12 +3,12 @@
 
 int strutl(char *str)
 {
-
+    int i = 0;
     while(*str != '\0')
     {
-        if(*str >= 'A' && *str <= 'Z')
+        if(str[i] >= 'A' && str[i] <= 'Z')
         {
-            *str = *str + 32;
+            str[i] = str[i] + 32;
         }
 
         str++;

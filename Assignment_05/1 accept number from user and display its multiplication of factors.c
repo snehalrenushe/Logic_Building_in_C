@@ -6,7 +6,7 @@ int MultFact(int iNo)
 {
     int mult = 1;
 
-    for(int i = 1 ; i * i <= iNo ; i++)
+    for(int i = 1 ; i * i <= iNo ; i++)        //12
     {
         if(iNo % i == 0)
         {
