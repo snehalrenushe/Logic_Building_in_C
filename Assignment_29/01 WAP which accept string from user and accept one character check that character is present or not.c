@@ -6,12 +6,16 @@
 
 typedef int BOOL;
 
-BOOL ChkChar(char *str,int No)
+BOOL ChkChar(char *str,char ch)
 {
-    int i;
-    if(*str == No)
+    while(*str != '\0')
     {
-        return 1;
+        if(*str == ch)
+        {
+            return 1;
+        }
+
+        str++;
     }
 
     return 0;
