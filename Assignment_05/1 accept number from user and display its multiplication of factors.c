@@ -19,6 +19,7 @@ int MultFact(int iNo)
     }
 
     return Mult;
+
 }
 int main()
 {
