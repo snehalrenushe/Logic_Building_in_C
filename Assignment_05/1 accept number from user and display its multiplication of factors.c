@@ -1,40 +1,35 @@
 #include<stdio.h>
 #include<conio.h>
-#define M 1000000007
 
 int MultFact(int iNo)
 {
-    int mult = 1;
+    int Mult = 1 , i = 1;
 
-    for(int i = 1 ; i * i <= iNo ; i++)        //12
+    if(iNo <= 0)
+    {
+        iNo = -iNo;
+    }
+
+    for(i = iNo/2 ; i >= 1 ; i--)
     {
         if(iNo % i == 0)
         {
-            if(iNo / i == i)
-            {
-                mult = (mult * i) % M;
-            }
-            else
-            {
-                mult = (mult * i) % M;
-                mult = (mult * iNo / i) % M;
-            }
+            Mult = Mult * i;
         }
     }
 
-    return mult;
+    return Mult;
 }
 int main()
 {
-    int iValue = 0;
-    int iRet = 0;
+    int iValue = 0 , iRet = 0;
 
     printf("\nEnter number: ");
     scanf("%d",&iValue);
 
     iRet = MultFact(iValue);
 
-    printf("%d",iRet);
+    printf("\nFactors of given %d is : %d",iValue,iRet);
 
     return 0;
 }
