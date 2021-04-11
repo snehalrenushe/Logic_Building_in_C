@@ -14,7 +14,6 @@ void strtog(char *str)
         {
             *str = *str - 32;
         }
-
         str++;
     }
 }
