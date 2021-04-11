@@ -5,6 +5,7 @@
 int LastChar(char *str,char ch)
 {
     int i = 0,temp = -1;
+
     while(*str != '\0')
     {
         if(*str == ch)
@@ -14,7 +15,6 @@ int LastChar(char *str,char ch)
         str++;
         i++;
     }
-
     return temp;
 
 }
