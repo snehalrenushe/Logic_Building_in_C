@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 
 int main()
 {
@@ -10,5 +11,6 @@ int main()
 
     printf("\n Your name is %s%s",Name);
 
+    getch();
     return 0;
 }
