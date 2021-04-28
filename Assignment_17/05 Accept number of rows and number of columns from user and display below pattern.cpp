@@ -12,7 +12,7 @@
 
 void Pattern(int iRow,int iCol)
 {
-    for(int i = 0 ; i <= iRow ; i++)
+    for(int i = 0 ; i <= iRow - 1; i++)
     {
         for(int j = 1 ; j <= iCol ; j++)
         {
