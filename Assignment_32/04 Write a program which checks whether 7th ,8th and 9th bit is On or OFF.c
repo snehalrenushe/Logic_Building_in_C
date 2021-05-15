@@ -32,11 +32,11 @@ int main()
 
     if(Ret)
     {
-        printf("\n15th Bit of Given number %d is ON.",No);
+        printf("\n 15th Bit of Given number %d is ON.",No);
     }
     else
     {
-        printf("\n15th Bit of Given number %d is OFF.",No);
+        printf("\n 15th Bit of Given number %d is OFF.",No);
     }
 
     getch();
