@@ -2,7 +2,7 @@
 
 float Percentage(int *Tmarks,int *Omarks)
 {
-    if(Tmarks < Omarks || Tmarks < 0)
+    if(*Tmarks < *Omarks || *Tmarks < 0)
     {
         return -1;
     }
