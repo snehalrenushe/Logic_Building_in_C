@@ -9,7 +9,6 @@ float Percentage(int *Tmarks,int *Omarks)
 
     return ( (float)(*Omarks)/(*Tmarks) )* (100);
     //return ((float)Omarks / Tmarks) * (100);
-
 }
 
 int main()
