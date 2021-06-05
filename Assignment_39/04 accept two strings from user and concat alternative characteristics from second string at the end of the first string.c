@@ -15,6 +15,7 @@ void strCatX(char *str1, char *str2)
 
     return;
 }
+
 int main()
 {
     char str1[20]="\0";
