@@ -21,6 +21,7 @@ void Pattern(char *pstr)
         }
         printf("\n");
     }
+
     return;
 }
 
