@@ -16,6 +16,7 @@ void Pattern(int iNo)
     }
     return;
 }
+
 int main()
 {
     int No = 0;
