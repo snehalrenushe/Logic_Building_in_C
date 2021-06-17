@@ -26,10 +26,9 @@ void strcap(char * str1, char * str2)
     printf("\nLength of First String Is %d ",len1);
     printf("\nLength of Second String Is %d ",len2);
 
-
-
     return;
 }
+
 int main()
 {
     char str1[20]="\0";
