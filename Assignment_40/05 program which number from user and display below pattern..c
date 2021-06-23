@@ -14,6 +14,7 @@ void Pattern(int iNo)
 
         printf("\n");
     }
+
     return;
 }
 
