@@ -21,7 +21,7 @@ int main()
 {
     int No = 0;
 
-    printf("Enter a number => ");
+    printf("Enter a number : ");
     scanf("%d",&No);
 
     Pattern(No);
